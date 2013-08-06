@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MotherName</key>
+	<string>Mom</string>
+	<key>DateType</key>
+	<string>dueDate</string>
+	<key>MotherDate</key>
+	<date>2012-07-19T12:59:28Z</date>
+	<key>BabyName</key>
+	<string></string>
+	<key>BabySex</key>
+	<false/>
+	<key>IsNotification</key>
+	<false/>
+	<key>dada</key>
+	<integer>0</integer>
+	<key>dayCount</key>
+	<string></string>
+</dict>
+</plist>

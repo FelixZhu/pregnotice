@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="11D50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="uyl-mc-2NM">
+    <dependencies>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="LgI-9g-hXi">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aIJ-cB-Fse" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController title="Life Better" definesPresentationContext="YES" id="uyl-mc-2NM" customClass="ViewController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="oip-b6-XBC">
+                        <rect key="frame" x="0.0" y="-44" width="0.0" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="aKk-bj-L96">
+                        <rect key="frame" x="0.0" y="436" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="hER-ev-CWa" kind="relationship" relationship="rootViewController" id="hjR-Rz-teD"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-904" y="-67"/>
+        </scene>
+        <scene sceneID="Y9l-IK-6O7">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dQr-Ii-jD8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="hER-ev-CWa" customClass="MainScrollView" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZQj-oq-4h3">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="aph-YI-3cv"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-508" y="-67"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
